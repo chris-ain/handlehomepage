@@ -109,20 +109,7 @@ tl.to(".mask", {
     ease: "none"
   });
 
-gsap.from(".text_intro", {
-	scrollTrigger: {
-		trigger: ".big_head_wrapper",
-		// markers: true,
-		start: "top center",
-		scroller: pageContainer,
-		toggleActions: "play none none reverse"
-	},
-	opacity: 0,
-	y: 50,
-	duration: 1,
-	ease: "power3.out",
-  stagger:.15,
-});
+
 
 gsap.from(".white_span", {
 	scrollTrigger: {
