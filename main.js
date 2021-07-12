@@ -34,11 +34,7 @@ ScrollTrigger.scrollerProxy(pageContainer, {
 ////////////////////////////////////
 
 window.addEventListener("load", function () {
-  let pinBoxes = document.querySelectorAll(".pin-wrap > *");
-  let pinWrap = document.querySelector(".pin-wrap");
-  let pinWrapWidth = pinWrap.offsetWidth;
-  let horizontalScrollLength = pinWrapWidth - window.innerWidth;
-
+ 
   // Pinning and horizontal scrolling
 
 
@@ -93,20 +89,7 @@ tl.to(".mask", {
 		0
 	);
   
-  
-    gsap.to(".pin-wrap", {
-    scrollTrigger: {
-      scroller: pageContainer, //locomotive-scroll
-      scrub: true,
-      trigger: "#sectionPin",
-      pin: true,
-      anticipatePin: 5,
-      start: "top top",
-      end: pinWrapWidth
-    },
-    x: -horizontalScrollLength,
-    ease: "none"
-  });
+ 
 
 gsap.from(".text_intro", {
 	scrollTrigger: {
