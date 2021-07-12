@@ -57,8 +57,8 @@ nameTL
 		duration: 1.6,
 		ease: "power4.inOut"
 	})
-	.to(".gradient_text", { scale: 1, duration: 0.95, ease: "power3.out" }, "-=0.75")
-	.from(".hero", { opacity: 0, duration: 4, ease: "power2.out" }, "-=0.55");
+	.to(".gradient_text", { scale: 1, duration: 0.95, ease: "power3.out" }, "-=0.2")
+	.from(".hero", { opacity: 0, duration: 4, ease: "power2.out" }, "-=0.2");
 
 
   
