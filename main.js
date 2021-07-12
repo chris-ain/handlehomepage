@@ -71,6 +71,7 @@ const tl = gsap.timeline({
 		scroller: pageContainer,
 		pin: true,
 		start: "center center",
+	      rotZ: 10,
     end: "+=100%"
 		
 	}
