@@ -163,6 +163,7 @@ gsap.utils.toArray(".text_rev").forEach(function (elem) {
 gsap.from(".text_intro", {
 	scrollTrigger: {
 		trigger: ".big_head_wrapper", 
+		delay: 2,
 		// markers: true,
 		start: "top center",
 		scroller: pageContainer,
