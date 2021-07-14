@@ -158,7 +158,12 @@ gsap.utils.toArray(".text_rev").forEach(function (elem) {
 });
 
 
-
+gsap.to(".panel", {
+	scaleY: 0,
+	duration: 1.65,
+  delay:2,
+	ease: "power4.inOut"
+});
 
 gsap.from(".text_intro", {
 	scrollTrigger: {
