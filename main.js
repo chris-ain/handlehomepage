@@ -230,5 +230,4 @@ gsap.from(".white_span", {
 
 
 
-
 });
